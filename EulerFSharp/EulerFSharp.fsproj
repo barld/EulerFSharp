@@ -47,6 +47,7 @@
     <Compile Include="problem1.fs" />
     <Compile Include="problem2.fs" />
     <Compile Include="Problem5.fs" />
+    <Compile Include="Problem49.fs" />
     <None Include="testScript.fsx" />
   </ItemGroup>
   <PropertyGroup>

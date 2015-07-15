@@ -11,12 +11,9 @@
         priemlist |> List.rev
 
     let makeListFromInt x =
-        let mutable xc = x
-        let mutable rtw = []
-        while xc > 0 do
-            rtw <- (xc%10)::rtw
-            xc <- xc/10
-        rtw
+        Seq.unfold (fun state -> if state > 0 then Some(state%10, state/10) else None) x
+        |> List.ofSeq
+        |> List.rev
 
     let isPermutation a b =
         let aList = makeListFromInt a |> List.sort

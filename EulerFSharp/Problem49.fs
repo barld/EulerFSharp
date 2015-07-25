@@ -1,15 +1,5 @@
 ﻿module Problem49
-    let priemsBelow n =
-        let mutable priemlist = [2]
-        for i in [3..2..n] do
-            let check =
-                priemlist
-                |> List.filter (fun x -> x <= int(sqrt (float i)))
-                |> List.exists (fun x -> i % x = 0)
-            if not check then
-                priemlist <- i::priemlist
-        priemlist |> List.rev
-
+    
     let makeListFromInt x =
         Seq.unfold (fun state -> if state > 0 then Some(state%10, state/10) else None) x
         |> List.ofSeq
@@ -32,7 +22,7 @@
                 calcAnswer body
 
     let priemsBetween1000And10000 =
-        priemsBelow 10000
+        Priems.priemsBelow 10000
         |> List.filter ((<) 1000)
 
     //filter other answer        

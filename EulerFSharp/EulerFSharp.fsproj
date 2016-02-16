@@ -47,12 +47,13 @@
     <Compile Include="Priems.fs" />
     <Compile Include="problem1.fs" />
     <Compile Include="problem2.fs" />
-    <Compile Include="Problem5.fs" />
-    <Compile Include="Problem49.fs" />
     <Compile Include="Problem3.fs" />
+    <Compile Include="problem4.fs" />
+    <Compile Include="Problem5.fs" />
+    <Compile Include="problem6.fs" />
+    <Compile Include="Problem49.fs" />
     <None Include="Script.fsx" />
     <None Include="LeapYear.fsx" />
-    <Compile Include="problem4.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

@@ -51,6 +51,8 @@
     <Compile Include="Problem49.fs" />
     <Compile Include="Problem3.fs" />
     <None Include="Script.fsx" />
+    <None Include="LeapYear.fsx" />
+    <Compile Include="problem4.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

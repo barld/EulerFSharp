@@ -11,6 +11,8 @@ Priems.priemsBelow sqrtN
 
 #load "Scripts/load-project-debug.fsx"
 
+Problem11.answer
+
 Problem9.answer
 
 

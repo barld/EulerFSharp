@@ -55,6 +55,7 @@
     <Compile Include="Problem9.fs" />
     <Compile Include="Problem10.fs" />
     <Compile Include="Problem11.fs" />
+    <Compile Include="Problem12.fs" />
     <Compile Include="Problem49.fs" />
     <None Include="Script.fsx" />
     <None Include="LeapYear.fsx" />

@@ -3,3 +3,4 @@
 #r "System.Core.dll"
 #r "System.dll"
 #r "System.Numerics.dll"
+#r "../../primeCS/primeCS/bin/Debug/primeCS.dll"

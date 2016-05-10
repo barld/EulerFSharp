@@ -53,11 +53,19 @@
     <Compile Include="problem6.fs" />
     <Compile Include="Problem8.fs" />
     <Compile Include="Problem9.fs" />
+    <Compile Include="Problem10.fs" />
     <Compile Include="Problem49.fs" />
     <None Include="Script.fsx" />
     <None Include="LeapYear.fsx" />
     <None Include="Scripts\load-references-debug.fsx" />
     <None Include="Scripts\load-project-debug.fsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\primeCS\primeCS\primeCS.csproj">
+      <Name>primeCS</Name>
+      <Project>{b0068fcb-3f9c-46a5-a5d5-7f05cc8b6388}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

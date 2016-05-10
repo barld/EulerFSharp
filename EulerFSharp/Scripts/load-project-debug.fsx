@@ -10,4 +10,5 @@
       "../Problem5.fs"
       "../problem6.fs"
       "../Problem8.fs"
+      "../Problem9.fs"
       "../Problem49.fs"

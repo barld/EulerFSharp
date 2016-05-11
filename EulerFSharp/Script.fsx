@@ -12,7 +12,7 @@ Priems.priemsBelow sqrtN
 #load "Scripts/load-project-debug.fsx"
 
 #time
-Problem12.answer
+Problem13.answer
 #time
 
 Problem9.answer
